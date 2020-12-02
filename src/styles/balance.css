@@ -1,0 +1,94 @@
+.balance-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.balance-container .balance-heading {
+    color: purple;
+    margin: 1rem;
+    font-weight: 600;
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px plum;
+}
+
+.income-expense-container {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    height: 5rem;
+}
+.income-expense-container h2 {
+    width: 50%;
+    font-size: 1rem;
+    border-radius: 0 50px 50px 50px;
+    box-shadow: 2px 2px 2px plum;
+    margin: 1.5rem;
+    padding: 1rem;
+  }
+.transaction-form {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}  
+.transaction-form label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #163172;
+    margin-top: 1.2rem;
+  }
+  .transaction-form input {
+    width: 70%;
+    display: flex;
+    margin: 0.2rem auto;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}  
+.buttons-container .submit-btn {
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 13rem;
+    transition: all 0.3s ease-in-out 0s;
+}
+.add-income-btn {
+    background: purple;
+    color: white;
+    border-radius:20px;
+    outline: none;
+    font-weight: 500;
+  }
+  
+  .add-expense-btn {
+    background: plum;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    outline: none;
+  }
+  .add-income-btn:hover {
+    background: white;
+    color: #163172;
+    font-weight: 500;
+  }
+  
+  .add-expense-btn:hover {
+    background: white;
+    color: #163172;
+    font-weight: 500;
+  }

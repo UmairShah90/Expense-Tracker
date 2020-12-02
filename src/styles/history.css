@@ -1,0 +1,54 @@
+.history-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.history-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: -1px -1px 2px gray;
+    width: 80%;
+    border-radius: 0 0 0 50px;
+    height: 90%;
+  }
+  
+  .list {
+    height: 90%;
+    overflow-y: scroll;
+  }
+  
+  .history-list > li {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    padding: 0.7rem;
+    margin: 1rem;
+    color: #163172;
+    font-weight: 600;
+  }
+  .incomeItem {
+    box-shadow: 1px 2px 3px #51a724, 3px 0px 1px #51a724;
+  }
+  
+  .expenseItem {
+    box-shadow: 1px 2px 3px #b83b30, 3px 0px 1px #b83b30;
+  }
+  .heading {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 0 50px;
+    background: #163172;
+    border-top: 1px solid black;
+  }
+  
+  .heading h3 {
+    color: #fff;
+    font-size: 1rem;
+  }

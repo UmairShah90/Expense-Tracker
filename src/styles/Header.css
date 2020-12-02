@@ -1,0 +1,27 @@
+.header-container {
+    padding: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgb(190, 186, 186);
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .header-container h1 {
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: purple;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 2.5rem;
+    height: 2.5em;
+    margin-left: 2rem;
+    background-image: url("../images//expense-logo.png");
+    background-size: cover;
+    cursor: pointer;
+  }
